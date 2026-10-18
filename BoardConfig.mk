@@ -146,3 +146,6 @@ SHRP_OTG := /usb_otg
 # Default (if not set): 0
 SHRP_FLASH := 0
 
+
+# 纯 64 位用户态(无 2ND_ARCH)
+TARGET_SUPPORTS_32_BIT_APPS := false
